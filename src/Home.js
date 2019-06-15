@@ -9,7 +9,7 @@ export default function Home(props) {
         alt="clinic"
         width="100%"
         src="./images/steth-sm.jpg"
-        srcset="./images/steth-sm.jpg 775w,./images/steth-md.jpg 1550w, ./images/steth-lg.jpg 3100w"
+        srcSet="./images/steth-sm.jpg 775w,./images/steth-md.jpg 1550w, ./images/steth-lg.jpg 3100w"
         sizes="100vw"
       />
       <Row type="flex" justify="center">
