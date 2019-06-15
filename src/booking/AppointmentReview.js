@@ -42,7 +42,7 @@ export default class AppointmentReview extends React.Component {
     return (
       <Container>
         <Header>Appointment Details</Header>
-        <Row type="flex" align="center">
+        <Row type="flex" align="middle">
           <Col span={12}><Label>CLINIC</Label></Col>
           <Col span={12}>{clinic}</Col>
           <Col span={12}><Label>DOCTOR</Label></Col>
