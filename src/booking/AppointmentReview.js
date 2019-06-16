@@ -28,12 +28,20 @@ export default class AppointmentReview extends React.Component {
     super(props);
     this.state= {online: navigator.onLine, allowNotification: false, subscription: null };
     this.notifyClicked = this.notifyClicked.bind(this);
+    // this.bookAppointment = this.bookAppointment.bind(this);
   }
 
   notifyClicked(checked) {
     this.setState({...this.state, allowNotification: checked});
     //TODO: handle push notification here
   }
+
+  // bookAppointment() {
+  //     const {subscription} = this.state;
+  //     const reqBody = { subscription, appDetails: this.props.appointment};
+  //     const jsonHeader = {'Content-Type': 'application/json'};
+  //     fetch("/api/book.json", { method: 'POST', headers: jsonHeader,body: JSON.stringify(reqBody) });
+  // }
 
   render() {
     const {online, allowNotification } = this.state;
