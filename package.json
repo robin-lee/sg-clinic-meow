@@ -142,5 +142,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "engines": {
+    "node": "10.14.2"
   }
 }
